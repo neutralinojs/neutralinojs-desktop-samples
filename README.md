@@ -6,7 +6,7 @@ In electron and NWjs you have to install NodeJs, hundreds of dependence librarie
 
 # Neutralino Samples
 
-Collection of apps built with NeutralinoJs
+Collection of apps built with NeutralinoJs. Are you new to NeutralinoJs? Please follow [docs](https://neutralinojs.github.io/docs/#/) to get started.
 
 ## Contribution
 
