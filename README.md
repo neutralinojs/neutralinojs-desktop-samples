@@ -1,21 +1,6 @@
-## NeutralinoJs
+<div align="center">
+  <img src="https://cdn.rawgit.com/neutralinojs/neutralinojs.github.io/b667f2c2/docs/nllogo.png" style="width:300px;"/>
+</div>
 
-NeutralinoJs is a framework to develop apps with native functionalities and allows you to run inside web browsers. 
-
-In electron and NWjs you have to install NodeJs, hundreds of dependence libraries and also the bundled app size is large even we write `hello world` due to embedded chromium and Node runtime. Neutralino is lightweight solution for this issue.
-
-# Neutralino Samples
-
-Collection of apps built with NeutralinoJs. Are you new to NeutralinoJs? Please follow [docs](https://neutralinojs.github.io/docs/#/) to get started.
-
-## Contribution
-
-Help Neutralino!.
-
-- Start this.
-- Fork and Clone this
-- And do bug fixes or improvements and send us PR. We love it <3 
-
-Add your own samples built with Neutralino
-
+This repository contains demo projects developed using [NeutralinoJs](https://github.com/neutralinojs/neutralino). Feel free to add your own Neutralino app via PR.
 
