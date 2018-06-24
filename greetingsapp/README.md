@@ -1,3 +1,3 @@
-# Greetings
+# Greetings App
 
-This Neutralino will display Hi.. `<Logged User Name>`
+This Neutralino app will display Hi.. `<Logged User Name>`
