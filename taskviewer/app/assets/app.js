@@ -1,6 +1,6 @@
 //THIS EXAMPLE ONLY WORKS ON WINDOWS PLATFORM 
-
-let getProcesses = () => {
+let myapp = {
+    loadProcesses : () => {
 	Neutralino.os.runCommand('tasklist /FI "STATUS eq RUNNING"', 
 		(data) => {
 			document.getElementById('name').innerText=data.stdout; //this formats the data into html ,omitting any aditional whitespaces between the process data retrieved
@@ -26,11 +26,18 @@ let getProcesses = () => {
 			console.error('error');
 		}
 	);
-}
+	}
+};
 
 Neutralino.init({
     load: () => {
-		//setInterval(() => {getProcesses();},500); //commented since command prompt opens every time the interval occurs , need a parameter to run commands in silent mode
-		getProcesses();
+        myapp.loadProcesses();
+		setInterval(() => {myapp.loadProcesses();},500); //refresh every 500 milliseconds
+    },
+    pingSuccessCallback : () => {
+        console.log("ping success");
+    },
+    pingFailCallback : () => {
+        console.log("ping fail");
     }
 });
