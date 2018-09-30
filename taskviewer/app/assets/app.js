@@ -32,7 +32,7 @@ let myapp = {
 Neutralino.init({
     load: () => {
         myapp.loadProcesses();
-		setInterval(() => {myapp.loadProcesses();},500); //refresh every 500 milliseconds
+		setInterval(() => {myapp.loadProcesses();},2000); //refresh every 2 seconds
     },
     pingSuccessCallback : () => {
         console.log("ping success");
