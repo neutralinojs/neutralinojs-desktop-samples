@@ -2,6 +2,8 @@
 
 A simple Neutralino App that displays a table containing active/running system processes <br/>
 
+<img src="taskviewer.png">
+
 ## Running This application
 
 1. Clone/Download this Repository
