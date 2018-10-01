@@ -12,7 +12,9 @@ A simple Neutralino App that displays a greeting message with the username of a 
 
 The app closes as soon as you close the browser tab.
 
-![alt text](https://github.com/duongoku/neutralinojs-desktop-samples/blob/master/greetingsapp/greeting_example.png "Screenshot")
+## Screenshot
+
+<img src="greeting_example.png ">
 
 [View More Samples](https://github.com/neutralinojs/neutralinojs-samples) <br/>
 
