@@ -9,6 +9,10 @@ A neutralino app that displays the current perecentage of your system RAM memory
 
 <hr/>
 
+## Screenshot
+
+<img src="Rammeter.png">
+
 [View More Samples](https://github.com/neutralinojs/neutralinojs-samples) <br/>
 
 Build your own NeutralinoJs app? [Get Started](https://neutralinojs.github.io/docs/#/gettingstarted/quickstart)
