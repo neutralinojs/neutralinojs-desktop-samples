@@ -14,7 +14,7 @@ View Docs:
 ## Available Samples 
 1. [Greetings App](https://github.com/neutralinojs/neutralinojs-samples/tree/master/greetingsapp)
 2. [Rammeter](https://github.com/neutralinojs/neutralinojs-samples/tree/master/rammeter)
-3. [Task Viewer](https://github.com/jamesjose03/neutralinojs-desktop-samples/tree/master/taskviewer)
+3. [Task Viewer](https://github.com/neutralinojs/neutralinojs-desktop-samples/tree/master/taskviewer)
 
 ## Contribution
 Do you build an NeutralinoJS application you want to share? You can add it to these samples by submitting a PR.
