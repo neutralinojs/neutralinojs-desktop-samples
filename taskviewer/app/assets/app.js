@@ -4,7 +4,7 @@ let myapp = {
 	let pn = NL_OS == 'Windows' ? 0 : 10; //set index of process name based on OS
 	//Process ID is the same index in both Operating Systems
 	let mUse = NL_OS == 'Windows' ? 4 : 3; //memory usage index based on OS
-	let mUnit = NL_OS == 'Windows' ? 'KB' : '%';
+	let mUnit = NL_OS == 'Windows' ? 'KB' : '%'; //Windows display memory usage in KB and Linux shows as a %
 
 	Neutralino.os.runCommand(key, 
 		(data) => {
