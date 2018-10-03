@@ -1,5 +1,5 @@
 {
-    "appname" : "myapp",
+    "appname" : "app",
     "appport" : "8080",
     "mode" : "desktop"
 }
