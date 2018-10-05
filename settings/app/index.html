@@ -1,0 +1,57 @@
+<!-- 
+MIT License
+
+Copyright (c) 2018 Neutralinojs
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>NeutralinoJs File Systems</title>
+  <link rel="stylesheet" href="/assets/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/app.css">
+</head>
+
+<body>
+  <div class='container'>
+    <div class='row center'>
+      <div class="col-lg-12">
+        <img class='center image' src="data:image/png;base64,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" />
+        <h1 class="display-2 center">NeutralinoJs Settings</h1>
+      </div>
+    </div>
+
+
+    <div class="row" style="padding-top: 20px">
+      <div class="col-lg-12 center">
+        <h4 class="display-4" id='appname'></h4>
+        <h4 class="display-4" id='appport'></h4>
+        <h4 class="display-4" id='mode'></h4>
+      </div>
+    </div>
+  </div>
+  <script src="/neutralino.js"></script>
+  <script src="/assets/app.js"></script>
+
+</body>
+
+</html>
