@@ -1,0 +1,5 @@
+{
+    "appname" : "filesystem",
+    "appport" : "8088",
+    "mode" : "desktop"
+}
