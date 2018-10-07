@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs</title>
+    <link rel="stylesheet" href="/assets/app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  </head>
+  <body>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Terminal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Device Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Program Details</a>
+          </li>
+        </ul>
+        
+        <div class="tab-content" id="myapp">
+          <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="card" style="padding-left: 10px; padding-right: 10px; padding-top: 5px">
+              <div class="card-header">
+                Console
+              </div>
+              <div class="card-body scroll" style="background-color: black; height: 70%;" id="terminal">
+                <p style="color: white" id="commandText"></p>
+              </div>
+              <div class="card-footer">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3">Command</span>
+                  </div>
+                  <input type="text" class="form-control" id="command" autofocus aria-describedby="basic-addon3" placeholder="Type your command and press enter">
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+          <p>Hey</p>
+        </div>
+        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" >
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                  <br>
+                    <div class="card">
+                        <h5 class="card-header">Program Data</h5>
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col">
+                              <label><b>Program Name:</b></label>
+                            </div>
+                            <div class="col">
+                              <p id="programName"></p>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <div class="col">
+                                <label><b>App Running Port:</b></label>
+                              </div>
+                              <div class="col">
+                                <p id="port"></p>
+                              </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                  <label><b>Application Mode:</b></label>
+                                </div>
+                                <div class="col">
+                                  <p id="mode"></p>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-5">
+                  
+                </div>
+                <div class="col-sm-1"></div>
+              </div>
+
+        </div>
+      </div>
+        
+        <script>
+          (function () {
+            $('#myTab li:last-child a').tab('show')
+          });
+        </script>
+      
+    <script src="/neutralino.js"></script>
+    <script src="/assets/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+
+  </body>
+</html>
