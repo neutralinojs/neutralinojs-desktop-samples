@@ -16,6 +16,7 @@ View Docs:
 2. [Rammeter](https://github.com/neutralinojs/neutralinojs-samples/tree/master/rammeter)
 3. [Task Viewer](https://github.com/neutralinojs/neutralinojs-desktop-samples/tree/master/taskviewer)+
 4. [Browser Based Terminal](https://github.com/neutralinojs/neutralinojs-desktop-samples/tree/master/neutralinojs-browser-terminal)
+5. [Date time](https://github.com/neutralinojs/neutralinojs-desktop-samples/tree/master/datetime)
 
 ## Contribution
 Do you build an NeutralinoJS application you want to share? You can add it to these samples by submitting a PR.
