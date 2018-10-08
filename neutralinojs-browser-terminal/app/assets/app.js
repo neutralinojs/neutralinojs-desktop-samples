@@ -13,6 +13,15 @@ function getSetting(){
           console.log('An error occured while trying to retrieve the settings.');
         }
       );
+
+      let key = NL_OS == 'Windows' ? 'USERNAME' : 'USER';
+      Neutralino.os.getEnvar(key, (data) => {
+          document.getElementById('user').innerText = data.value;
+      },
+      () => {
+        console.log('An error occured while trying to retrieve the settings.');
+      }
+      );
 }
 
 function getData(){
