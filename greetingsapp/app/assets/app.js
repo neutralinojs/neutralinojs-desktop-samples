@@ -1,9 +1,9 @@
-let getUsername = () => {
-    let key = NL_OS == 'Windows' ? 'USERNAME' : 'USER';
-    Neutralino.os.getEnvar(key, (data) => {
+var getUsername = function () {
+    var key = NL_OS == 'Windows' ? 'USERNAME' : 'USER';
+    Neutralino.os.getEnvar(key, function (data) {
         document.getElementById('name').innerText = data.value;
     },
-    () => {
+    function () {
         //handle error
     }
     );
@@ -11,7 +11,7 @@ let getUsername = () => {
 }
 
 Neutralino.init({
-    load: () => {
+    load: function () {
         getUsername();
     }
 });
