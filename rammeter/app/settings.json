@@ -1,4 +1,9 @@
 {
-    "appname" : "myapp",
-    "appport" : "8080" 
+    "appname" : "clickmeapp",
+    "appport" : "8080",
+    "mode" : "window",
+    "window" : {
+        "width" : "800",
+        "height" : "500"
+    }
 }

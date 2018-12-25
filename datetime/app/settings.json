@@ -1,5 +1,9 @@
 {
-    "appname" : "app",
+    "appname" : "clickmeapp",
     "appport" : "8080",
-    "mode" : "desktop"
+    "mode" : "window",
+    "window" : {
+        "width" : "600",
+        "height" : "300"
+    }
 }
