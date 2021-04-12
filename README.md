@@ -1,4 +1,4 @@
-## Notice ❗
+## Important ❗
 
 These sample apps use very old Neutralinojs versions. Please visit [docs](https://neutralino.js.org/docs/getting-started/your-first-neutralinojs-app)
 to see how to create Neutralinojs v2.x apps. 
