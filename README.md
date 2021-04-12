@@ -1,3 +1,8 @@
+## Notice ❗
+
+These sample apps use very old Neutralinojs versions. Please visit [docs](https://neutralino.js.org/docs/getting-started/your-first-neutralinojs-app)
+to see how to create Neutralinojs v2.x apps. 
+
 <div align="center">
   <img src="https://cdn.rawgit.com/neutralinojs/neutralinojs.github.io/b667f2c2/docs/nllogo.png" style="width:300px;"/>
 </div>
